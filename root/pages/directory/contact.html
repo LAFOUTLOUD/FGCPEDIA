@@ -4,7 +4,7 @@
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title>fgcpedia.com</title>
-			<link href="css/stylesheet.css" rel="stylesheet">
+			<!-- <link href="css/stylesheet.css" rel="stylesheet"> -->
 		</head>
 
 		<body>
@@ -29,14 +29,23 @@
 			<!-- main section -->
 			<main>
 				<div id="main-container">
-					<div>
-						<h1 id="logo">FGCPEDIA</h1>
-					</div>
-					<div>
-						<form action="/" method="post">
-							<input type="search" placeholder="Search">
-						</form>
-					</div>
+					
+					<!-- Contact Form -->
+					<form action="/contact" method="post">
+						
+						<!-- Name -->
+						<input type="text" placeholder="Name" name="name" required>
+
+						<!-- Email -->
+						<input type="email" placeholder="Enter Email" name="email" required>
+
+						<textarea placeholder="Your Message" name="message"></textarea>
+
+						<!-- Submit button -->
+						<input type="submit" value="SUBMIT" required>
+
+					</form>
+
 				</div>
 			</main>
 
@@ -222,7 +231,7 @@
 								<span>|</span>
 							</li>
 							<li>
-								<a href="contact.html">contact</a>
+								<a href="contact.html">Contact</a>
 							</li>
 						</ul>
 					</div>
