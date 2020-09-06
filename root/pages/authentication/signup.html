@@ -1,0 +1,39 @@
+<DOCTYPE! html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="" content="">
+			<title>fgcpedia.com/sign-up</title>
+			<!-- <link href="stylesheet.css" rel="stylesheet"> -->
+		</head>
+
+		<body>
+
+			<h1>Create your account</h1>
+
+			<!-- makes post requests to the /login route on our server -->
+			<form action="/signup.html" method="post">
+
+				<!-- username/email field -->
+				<label>Username/Email</label>
+				<input type="email" name="username" required>
+
+				<!-- password input field -->
+				<label>Password</label>
+				<input type="password" name="password" required>
+
+				<!-- the 'keep me sign in' button -->
+				<input type="radio" value="">
+				<label>Keep me signed in</label>
+
+				<!-- submit button for the form -->
+				<input type="submit" value="Create your account">
+
+				<!-- connects users back to the login page -->
+				<p>Have an account?<a href="/login">Sign In</a></p>
+
+			</form>
+			
+			<script src="js/script.js"></script>
+		</body>
+	</html>

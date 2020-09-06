@@ -1,0 +1,37 @@
+<DOCTYPE! html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="" content="">
+			<title>fgcpedia.com/login</title>
+			<!-- <link href="stylesheet.css" rel="stylesheet"> -->
+		</head>
+
+		<body>
+
+			<h1>Login</h1>
+
+			<!-- makes post requests to the /login route on our server -->
+			<form action="/login" method="post">
+				
+				<!-- username/email field -->
+				<label>Username/Email</label>
+				<input type="email" required>
+
+				<!-- password input field -->
+				<label>Password</label>
+				<input type="password" required>
+
+				<!-- the 'keep me sign in' button -->
+				<input type="radio" value="">
+				<label>Keep me signed in</label>
+
+				<a href="forgot-password.html">Reset password</a>
+
+				<!-- submit button for the form -->
+				<input type="submit" value="Sign in">
+			</form>
+			
+			<script src="js/script.js"></script>
+		</body>
+	</html>
