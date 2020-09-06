@@ -4,7 +4,7 @@
 			<meta charset="utf-8">
 			<meta name="" content="">
 			<title>fgcpedia.com/sign-up</title>
-			<!-- <link href="stylesheet.css" rel="stylesheet"> -->
+			<link href="css/stylesheet3.css" rel="stylesheet">
 		</head>
 
 		<body>
@@ -20,7 +20,10 @@
 
 				<!-- password input field -->
 				<label>Password</label>
-				<input type="password" name="password" required>
+				<input type="password" name="password" id="password" required>
+
+				<!-- toggles password visibility -->
+				<input type="checkbox" onclick="myFunction()">Show Password
 
 				<!-- the 'keep me sign in' button -->
 				<input type="radio" value="">
@@ -30,10 +33,10 @@
 				<input type="submit" value="Create your account">
 
 				<!-- connects users back to the login page -->
-				<p>Have an account?<a href="/login">Sign In</a></p>
+				<p>Have an account?<a href="/login.html">Sign In</a></p>
 
 			</form>
 			
-			<script src="js/script.js"></script>
+			<script type="text/javascript" src="js/script.js"></script>
 		</body>
 	</html>

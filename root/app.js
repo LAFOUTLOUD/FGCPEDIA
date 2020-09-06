@@ -20,7 +20,8 @@ const userSchema = {
 const User = new mongoose.model('User', userSchema);
 
 // allows the app to connect to your css folder
-app.use(express.static('css'));
+// app.use(express.static('css'));
+app.use(express.static('public'));
 
 // allows you to take the data from input fields and use them
 app.use(bodyParser.urlencoded({extended: true}));
